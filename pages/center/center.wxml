@@ -1,16 +1,18 @@
 <!--logs.wxml-->
 <view class="page center">
   <view class="top">
-    <image class="img" src="/static/img/banner1.jpg" mode="widthFix" lazy-load="false" />
+    <image class="img" src="/static/img/banner1.jpg" mode="scaleToFill" lazy-load="false" />
     <text class="text">
       名字
     </text>        
   </view>
   <view class="list-box">
     <view class="list block">
-      <view class="item border-bottom">      
-        <text class='iconfont icon-audit'></text>
-        个人资料
+      <view class="item border-bottom flex">  
+        <view>
+          <text class='iconfont icon-file-text'></text>
+          个人资料          
+        </view>              
         <text class='iconfont icon-right'></text>
       </view>
         
