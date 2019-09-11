@@ -1,0 +1,28 @@
+.center{
+  .top{
+    width: 100%;
+    background: #E74435;
+    text-align: center;
+    padding: 40rpx;
+    box-sizing: border-box;
+    .img{
+      width: 80rpx;
+      height: 80rpx;
+      border-radius: 50%;
+
+    }
+    .text{
+      font-size: 28rpx;
+      color: #fff;
+    }
+  }
+  .list-box{
+    padding: 20rpx;
+    box-sizing: border-box;
+    .list{
+      margin-top: 20rpx;
+      .item{
+      }
+    }
+  }
+}
